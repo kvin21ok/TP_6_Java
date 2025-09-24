@@ -11,8 +11,6 @@ public class Libro {
     private int anioPublicacion;
     private Autor autor;
     
-    public Libro(){}
-    
     public Libro(String isbn, String titulo, int anioPublicacion, Autor autor){
         this.isbn = isbn;
         this.titulo = titulo;
